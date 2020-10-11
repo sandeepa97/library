@@ -18,6 +18,6 @@ footer p {
 
 <footer>
 	<p>
-		All Rights Reserved. By Awesome Team lead by Niromi 
+		All Rights Reserved. Team UOC
 	</p>
 </footer>
