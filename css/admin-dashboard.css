@@ -419,6 +419,8 @@ body {
 
 #collapse-btn{
   margin-bottom: 50px;
+  position: absolute;
+  bottom: 0;
 }
 
 .container{

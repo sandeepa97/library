@@ -1,8 +1,8 @@
 <header class="page-header">
   <nav>
-    <a href="#0">
+    <a href="admin-dashboard.php">
 	  <!-- <img class="logo" src="img/logo.png" alt="forecastr logo"> -->
-	  <h1 class="logo-text" >LS</h1>
+	  <h1 class="logo-text" >L S</h1>
     </a>
     <button class="toggle-mob-menu" aria-expanded="false" aria-label="open menu">
       <svg width="20" height="20" aria-hidden="true">
@@ -14,7 +14,15 @@
         <h3>Admin</h3>
       </li>
       <li>
-        <a href="#0">
+        <a href="admin-dashboard.php">
+          <svg>
+            <use xlink:href="#charts"></use>
+          </svg>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="admin-manage-books.php">
           <svg>
             <use xlink:href="#pages"></use>
           </svg>
@@ -22,7 +30,7 @@
         </a>
       </li>
       <li>
-        <a href="#0">
+        <a href="admin-add-books.php">
           <svg>
             <use xlink:href="#pages"></use>
           </svg>
@@ -30,7 +38,7 @@
         </a>
       </li>
       <li>
-        <a href="#0">
+        <a href="admin-available-books.php">
           <svg>
             <use xlink:href="#pages"></use>
           </svg>
@@ -38,7 +46,7 @@
         </a>
       </li>
       <li>
-        <a href="#0">
+        <a href="admin-books-tobe-returned.php">
           <svg>
             <use xlink:href="#pages"></use>
           </svg>
@@ -46,7 +54,7 @@
         </a>
       </li>
       <li>
-        <a href="#0">
+        <a href="admin-manage-users.php">
           <svg>
             <use xlink:href="#users"></use>
           </svg>
@@ -54,7 +62,7 @@
         </a>
       </li>
       <li>
-        <a href="#0">
+        <a href="admin-push-notifications.php">
           <svg>
             <use xlink:href="#comments"></use>
           </svg>
@@ -67,7 +75,7 @@
         <h3>Settings</h3>
       </li>
       <li>
-        <a href="#0">
+        <a href="#LogoutFunction()">
           <svg>
             <use xlink:href="#options"></use>
           </svg>
