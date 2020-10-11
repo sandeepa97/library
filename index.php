@@ -32,6 +32,7 @@
 			<button>Log In</button>
 			<!-- temp -->
 			<a href="admin-dashboard.php">Admin Dashboard</a>
+			<a href="user-dashboard.php">User Dashboard</a>
 			<!-- temp -->
 		</form>
 	</div>
