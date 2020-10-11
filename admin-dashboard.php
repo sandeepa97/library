@@ -1,62 +1,58 @@
 <html>
-<head>
+	<head>
+		<title>Admin Dashboard</title>
 
-<title>e-Library</title>
-
-<link rel = "stylesheet" type = "text/css" href = "css/admin-dashboard.css" />
-
-</head>
+		<link rel = "stylesheet" type = "text/css" href = "css/admin-dashboard.css" />
+	</head>
 
 <body>
 
+<?php 
+		include("components/symbols.php");
+?>
 
-<div class="container" id="container">
-	<div class="form-container sign-up-container">
-		<form action="#">
-        <h2>e-LIBRARY SYSTEM</h2>
-			<h1>Create Account</h1>
+<?php 
+		include("components/admin-sidenav.php");
+?>
 
-			<input type="text" placeholder="Name" />
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<button>Sign Up</button>
-		</form>
-	</div>
-	<div class="form-container sign-in-container">
-		<form action="#">
-        <h2>e-LIBRARY SYSTEM</h2>
-			<h1>Log In</h1>
-			<input type="email" placeholder="Email" />
-			<input type="password" placeholder="Password" />
-			<a href="#">Forgot your password?</a>
-			<button>Log In</button>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-left">
-				<h1>Welcome Back!</h1>
-				<p>To keep connected with us please login with your personal info</p>
-				<button class="ghost" id="signIn">Log In</button>
-			</div>
-			<div class="overlay-panel overlay-right">
-				<h1>Hello, there!</h1>
-				<p>Enter your details and sign up to the System</p>
-				<button class="ghost" id="signUp">Sign Up</button>
-			</div>
-		</div>
-	</div>
-</div>
 
-<footer>
-	<p>
-		All Rights Reserved. By Awesome Team lead by Niromi 
-	</p>
-</footer>
+<section class="page-content">
+
+  <section class="search-and-user">
+    <form>
+      <input type="search" placeholder="Search ...">
+      <button type="submit" aria-label="submit form">
+        <svg aria-hidden="true">
+          <use xlink:href="#search"></use>
+        </svg>
+      </button>
+    </form>
+    <div class="admin-profile">
+      <span class="greeting">Hello admin</span>
+      <div class="notifications">
+        <span class="badge">1</span>
+        <svg>
+          <use xlink:href="#users"></use>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1>Dashboard Data</h1>
+    <ul>
+      <li>demo 1</li>
+      <li>demo 2</li>
+    </ul>
+  </div>
+
+<?php 
+		include("components/footer.php");
+?>
+
+</section>
 
 
 <script src="js/admin-dashboard.js"></script>
 </body>
-
-
 </html>

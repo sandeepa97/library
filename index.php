@@ -30,6 +30,9 @@
 			<input type="password" placeholder="Password" />
 			<a href="#">Forgot your password?</a>
 			<button>Log In</button>
+			<!-- temp -->
+			<a href="admin-dashboard.php">Admin Dashboard</a>
+			<!-- temp -->
 		</form>
 	</div>
 	<div class="overlay-container">
@@ -48,11 +51,9 @@
 	</div>
 </div>
 
-<footer>
-	<p>
-		All Rights Reserved. By Awesome Team lead by Niromi 
-	</p>
-</footer>
+<?php 
+		include("components/footer.php");
+?>
 
 
 <script src="js/home.js"></script>
