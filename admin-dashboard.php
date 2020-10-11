@@ -3,7 +3,7 @@
 
 <title>e-Library</title>
 
-<link rel = "stylesheet" type = "text/css" href = "css/home.css" />
+<link rel = "stylesheet" type = "text/css" href = "css/admin-dashboard.css" />
 
 </head>
 
@@ -55,7 +55,7 @@
 </footer>
 
 
-<script src="js/home.js"></script>
+<script src="js/admin-dashboard.js"></script>
 </body>
 
 
